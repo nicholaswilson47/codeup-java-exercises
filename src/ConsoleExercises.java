@@ -28,5 +28,12 @@ public class ConsoleExercises {
         System.out.println("Here is your sentence: ");
         System.out.println(sentence);
 
+        System.out.println("Please enter length of your classroom: (ex.10.3)");
+        double length = Double.parseDouble(scan.nextLine());
+        System.out.println("Please enter wdith of your classroom: (ex.10.3)");
+        double width = Double.parseDouble(scan.nextLine());
+
+        System.out.printf("Area of the classroom: %.1fn", length*width);
+
     }
 }
