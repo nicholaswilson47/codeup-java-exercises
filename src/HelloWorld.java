@@ -7,7 +7,7 @@ public class HelloWorld {
         String myString = "I love this string!";
         System.out.println(myString);
 
-        myNumber = 123;
+//        myNumber = 123;
 
         int x = 5;
         System.out.println(x++);
