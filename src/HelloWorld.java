@@ -13,9 +13,9 @@ public class HelloWorld {
         System.out.println(x++);
         System.out.println(x);
 
-        int x = 5;
-        System.out.println(++x);
-        System.out.println(x);
+//        int x = 5;
+//        System.out.println(++x);
+//        System.out.println(x);
 
 
         String theNumberThree = "three";
