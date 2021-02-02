@@ -4,10 +4,11 @@ import java.util.Scanner;
 public class Bob {
     public static void main(String[] args) {
         Scanner bobScan = new Scanner(System.in);
-        System.out.println("What will you say to Bob?");
-        String userResponse = bobScan.nextLine().trim();
 
         while(true) {
+
+            System.out.println("What will you say to Bob? (type bye if you want to finish this exec");
+            String userResponse = bobScan.nextLine().trim();
 
             if (userResponse.endsWith("?")) {
                 System.out.println("Sure.");
