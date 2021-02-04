@@ -7,8 +7,8 @@ public class ArraysExercises {
         System.out.println(numbers);
         System.out.println(Arrays.toString(numbers));
 
-        //3-person array
-        Person[] people = new Person [3];
+        // 3-person Array
+        // Person[] people = new Person[3];
         Person casey = new Person("Casey");
         Person fernando = new Person("Fernando");
         Person daniel = new Person("Daniel");
@@ -21,8 +21,8 @@ public class ArraysExercises {
 
     }
 
-    public Person[] addPerson(Person[] people, Person newPerson){
-        Person[] morePeople = Arrays. copyOf(people, people.length+1);
+    public static Person[] addPerson(Person[] people, Person newPerson) {
+        Person[] morePeople = Arrays.copyOf(people, people.length+1);
         morePeople[morePeople.length-1] = newPerson;
         return morePeople;
     }
