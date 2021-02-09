@@ -21,6 +21,14 @@ public class FileIOLesson {
                 "SQL"
         );
         Files.write(filepath, languages);
+        List<String> lines = Files.readAllLines(filepath);
+
+        for (String line : lines){
+            System.out.println("Here is a language I like: "+ line);
+            if (line.equals("Javascript")){
+                System.out.println("This is my favorite language!");
+            }
+        }
     }
 
 }
