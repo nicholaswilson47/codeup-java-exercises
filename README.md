@@ -13,8 +13,6 @@ Missing files:
 
 - src/movies/MoviesApplication.java
 
-- src/shapes/Rectangle.java
-
 - src/shapes/ShapesTest.java
 
 - src/shapes/Quadrilateral.java
