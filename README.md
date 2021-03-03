@@ -3,9 +3,6 @@
 
 Missing files:
 
--src/MethodsExercises.java
-
-
 - src/movies/Movie.java
 
 - src/movies/MoviesArray.java
