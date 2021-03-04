@@ -37,7 +37,7 @@ public class Input {
         return this.scanner.nextInt();
     }
 
-    public int getInt(int min, int max){
+    public static int getInt(int min, int max){
         return getInt("Please enter an integer between "+min+" and "+max+": ",min,max);
     }
     public int getInt(String prompt, int min, int max){
