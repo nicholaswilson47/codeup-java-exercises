@@ -9,6 +9,4 @@ Missing files:
 
 - src/movies/MoviesApplication.java
 
-- src/shapes/Quadrilateral.java
-
 - src/grades/GradesApplication.java
